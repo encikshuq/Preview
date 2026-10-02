@@ -251,7 +251,8 @@ body.menu-open{overflow:hidden}
   .wrap{width:calc(100% - 32px)}
   .nav{height:66px}
   .logo img{height:40px}
-  .hero-img,.phero .hero-img{width:100%}
+  .hero,.phero{display:block}
+  .hero-img,.phero .hero-img,.hero .hero-img{position:absolute;inset:0;width:100%;height:auto}
   .hero-img img,.phero .hero-img img{object-position:center bottom}
   .hero-img::before,.phero .hero-img::before{background:linear-gradient(180deg,rgba(239,245,253,.94) 0%,rgba(239,245,253,.86) 45%,rgba(239,245,253,.45) 75%,rgba(239,245,253,.1) 100%)}
   .hero-in{padding:40px 0 120px}

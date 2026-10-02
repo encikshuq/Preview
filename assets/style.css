@@ -251,11 +251,10 @@ body.menu-open{overflow:hidden}
   .wrap{width:calc(100% - 32px)}
   .nav{height:66px}
   .logo img{height:40px}
-  .hero-img,.phero .hero-img{position:relative;width:100%;height:300px}
-  .hero-img::before{background:linear-gradient(180deg,#F2F7FD 0%,rgba(242,247,253,0) 35%)}
-  .hero{display:flex;flex-direction:column-reverse}
-  .hero-in{padding:36px 0 26px}
-  .hero .hero-img{height:340px}
+  .hero-img,.phero .hero-img{width:100%}
+  .hero-img img,.phero .hero-img img{object-position:center bottom}
+  .hero-img::before,.phero .hero-img::before{background:linear-gradient(180deg,rgba(239,245,253,.94) 0%,rgba(239,245,253,.86) 45%,rgba(239,245,253,.45) 75%,rgba(239,245,253,.1) 100%)}
+  .hero-in{padding:40px 0 120px}
   .hero p{font-size:15.5px}
   .feats{grid-template-columns:1fr;margin-top:-50px}
   .feat+.feat{border-left:0;border-top:1px solid var(--line)}
@@ -272,10 +271,9 @@ body.menu-open{overflow:hidden}
   .banner .story-img::before{background:linear-gradient(180deg,var(--navy-dk) 0%,rgba(7,31,73,0) 50%)}
   .stats{gap:20px}
   .stat strong{font-size:22px}
-  .phero{display:flex;flex-direction:column-reverse}
-  .phero-in{padding:26px 0 30px}
-  .phero .hero-img{height:240px}
-  .hl{gap:12px;justify-content:space-between}
+  .phero-in{padding:30px 0 34px}
+  .hl{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+  .hl div{max-width:none;font-size:11.5px}
   .hl i{width:50px;height:50px}
   .tab{flex:none}
   .dhero{height:250px}
